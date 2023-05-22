@@ -48,7 +48,7 @@ kerparner(10,5)
 
     frameRate(5);
     createCanvas(matrix[0].length * side, matrix.length * side);
-    background('#acacac');
+    background('#acacac');  
     for (let y = 0; y < matrix.length; y++) {
         for (let x = 0; x < matrix[y].length; x++) {
             if (matrix[y][x] == 1) {
