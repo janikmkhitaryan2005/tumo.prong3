@@ -70,9 +70,10 @@ module.exports = class Gishatich extends LivingCreature {
 
         this.energy--
 
-        console.log(this.energy);
+     
         let emptyCells = this.chooseCell(1)
-        let newCell = random(emptyCells)
+        let newCell =emptyCells[Math.floor(Math.random()*emptyCells.length)]
+
         if (newCell) {
 
             let newX = newCell[0]
